@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  db: process.env.DB || 'mongodb://localhost:27017/nodeappDB',
+  db: process.env.DB || 'mongodb://mongo/nodeapp',
   swagger: process.env.SWAGGER,
   basePath: '/',
   secret: process.env.SECRET || 'mySecretAwesome',

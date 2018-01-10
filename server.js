@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 // const helmet = require('helmet');
 
 // Constants
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
 
 // App
@@ -14,9 +14,6 @@ const app = express();
 
 // app.use(helmet());
 // app.disable('x-powered-by');
-app.get('/', (req, res) => {
-  res.send('Hello world\n');
-});
 
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
