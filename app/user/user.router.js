@@ -56,7 +56,7 @@ const userController = require('./user.controller');
 
 /**
  * @swagger
- * 
+ *
  * /users/{id}:
  *   put:
  *     tags:

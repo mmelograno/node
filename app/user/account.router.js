@@ -55,7 +55,7 @@ const userSchemaLogin = {
  *         type: string
  *       country:
  *         type: string
- * 
+ *
  *   SignUp:
  *     type: object
  *     properties:
@@ -65,7 +65,7 @@ const userSchemaLogin = {
  *         message:
  *           type: string
  *           enum: [User created successfuly]
- * 
+ *
  *   UserLogin:
  *     type: object
  *     required:
